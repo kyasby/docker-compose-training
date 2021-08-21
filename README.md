@@ -9,4 +9,5 @@
 - docker imageは，tiangolo/uwsgi-nginx-flask:python3.8を使用してください。
 - ホストPC上のこのディレクトリのファイル/フォルダを，コンテナ上の/myappに複製してください。
 - docker-compose upで，flaskが立ち上がるようにしてください。(python3 flask.pyを実行)
+  - flaskのポートは80です。(flask.py参照)
 - ホストPCから，ウェブアプリにアクセスしてみてください。
