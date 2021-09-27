@@ -2,7 +2,8 @@ version: '3'
 services:
   web:
     image: tiangolo/uwsgi-nginx-flask:python3.8
-    command: python3 ./flask_app.py 
+    command: python3 ./flask_app.py
+    volumes:
       - .:/myapp
     working_dir: /myapp
     ports:
